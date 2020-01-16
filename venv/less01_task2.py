@@ -4,7 +4,7 @@ if user_time_sec >= 3600:
     hours = user_time_sec // 3600
     if hours < 10:
         hours = f'0{hours}'
-    minutes = user_time_sec // 60 - 60
+    minutes = user_time_sec % 60
     if minutes < 10:
         minutes = f'0{minutes}'
     seconds = user_time_sec % 60
