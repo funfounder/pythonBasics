@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ba311f4-377a-4bad-83ea-feeb06ea8b00" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/venv/less01_task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/less01_task1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/less01_task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/less01_task2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/less01_task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/less01_task3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/less01_task4.py" beforeDir="false" afterPath="$PROJECT_DIR$/less01_task4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/less01_task5.py" beforeDir="false" afterPath="$PROJECT_DIR$/less01_task5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/less01_task6.py" beforeDir="false" afterPath="$PROJECT_DIR$/less01_task6.py" afterDir="false" />
-    </list>
+    <list default="true" id="0ba311f4-377a-4bad-83ea-feeb06ea8b00" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +22,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sergey.kalinichenko\BigData\PythBasics" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
