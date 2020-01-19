@@ -4,6 +4,8 @@
     <list default="true" id="0ba311f4-377a-4bad-83ea-feeb06ea8b00" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/less01_task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/less01_task2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/less01_task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/less01_task3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/less01_task4.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/less01_task4.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +40,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.less01_task2">
+  <component name="RunManager" selected="Python.less01_task4">
     <configuration name="less01_task2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythBasics" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -146,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.less01_task2" />
         <item itemvalue="Python.less01_task4" />
+        <item itemvalue="Python.less01_task3" />
+        <item itemvalue="Python.less01_task2" />
         <item itemvalue="Python.less01_task6" />
         <item itemvalue="Python.less01_task5" />
-        <item itemvalue="Python.less01_task3" />
       </list>
     </recent_temporary>
   </component>
