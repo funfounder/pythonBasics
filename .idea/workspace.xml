@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ba311f4-377a-4bad-83ea-feeb06ea8b00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/less04_task01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/less04_task02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/less04_task03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/less04_task04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/less04_task05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/less04_task06.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/less04_task07.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/less04_task07.py" beforeDir="false" afterPath="$PROJECT_DIR$/less04_task07.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
