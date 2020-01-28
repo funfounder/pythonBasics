@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ba311f4-377a-4bad-83ea-feeb06ea8b00" name="Default Changelist" comment="" />
+    <list default="true" id="0ba311f4-377a-4bad-83ea-feeb06ea8b00" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/less04_task07.py" beforeDir="false" afterPath="$PROJECT_DIR$/less04_task07.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +46,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.less03_task06">
-    <configuration name="less03_task01" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.less04_task07">
+    <configuration name="less04_task03" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythBasics" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -55,7 +59,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/less03_task01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/less04_task03.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -64,7 +68,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="less03_task03" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="less04_task04" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythBasics" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -76,7 +80,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/less03_task03.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/less04_task04.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -85,7 +89,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="less03_task04" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="less04_task05" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythBasics" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,7 +101,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/less03_task04.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/less04_task05.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -106,7 +110,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="less03_task05" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="less04_task06" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythBasics" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -118,8 +122,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/less03_task05.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/less04_task06.py" />
+      <option name="PARAMETERS" value="10 15" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -127,7 +131,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="less03_task06" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="less04_task07" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythBasics" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,7 +143,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/less03_task06.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/less04_task07.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,6 +153,11 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.less04_task03" />
+      <item itemvalue="Python.less04_task04" />
+      <item itemvalue="Python.less04_task05" />
+      <item itemvalue="Python.less04_task06" />
+      <item itemvalue="Python.less04_task07" />
       <item itemvalue="Python.less03_task01" />
       <item itemvalue="Python.less03_task03" />
       <item itemvalue="Python.less03_task04" />
@@ -157,11 +166,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.less03_task06" />
-        <item itemvalue="Python.less03_task05" />
-        <item itemvalue="Python.less03_task04" />
-        <item itemvalue="Python.less03_task03" />
-        <item itemvalue="Python.less03_task01" />
+        <item itemvalue="Python.less04_task07" />
+        <item itemvalue="Python.less04_task06" />
+        <item itemvalue="Python.less04_task05" />
+        <item itemvalue="Python.less04_task04" />
+        <item itemvalue="Python.less04_task03" />
       </list>
     </recent_temporary>
   </component>
