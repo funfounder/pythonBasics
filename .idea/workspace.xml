@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ba311f4-377a-4bad-83ea-feeb06ea8b00" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less03_task06.py" beforeDir="false" afterPath="$PROJECT_DIR$/less03_task06.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -151,6 +150,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.less03_task01" />
+      <item itemvalue="Python.less03_task03" />
+      <item itemvalue="Python.less03_task04" />
+      <item itemvalue="Python.less03_task05" />
+      <item itemvalue="Python.less03_task06" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.less03_task06" />
