@@ -10,9 +10,6 @@ from math import factorial
 # for i in f:
 #     print(i)
 
-# my_list = [i for i in range(fact())]
-# print(my_list)
-
 # c = 0
 # for el in fact(n):
 #     if c < n:
