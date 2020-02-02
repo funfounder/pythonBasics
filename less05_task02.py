@@ -13,3 +13,4 @@ for line in my_file:
             print(f'Line {i} contains {word_count} words')
             i += 1
 
+my_file.close()

@@ -22,6 +22,9 @@ for key, value in dict_out.items():
         my_out.write(line)
         my_out.write('\n')
 
+my_out.close()
+my_in.close()
+
 # print(my_list)
 # print(my_dict)
 # print(dict_out)
