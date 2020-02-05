@@ -1,41 +1,40 @@
 from abc import ABC, abstractmethod
 
 class Clothes:
-    @abstractmethod
-    def name(self, title='Noname'):
+    def __init__(self, title='Noname'):
         self.title = title
-        return print(f'This clothes is made by {title}.')
+    @abstractmethod
+    def name(self):
+        return print(f'This clothes is made by {self.title}')
 
 class Coat(Clothes):
-    def __init__(self, v):
+    def tailor(self, v):
         self.v = v
-
-    @property
-    def tailor(self):
         return print(f'For your coat {((self.v / 6.5) - 0.5):.2f} m of wool is required.')
+    @property
+    def name(self):
+        return print(f'This coat is made by {self.title}')
 
-    def name(self, title='Noname'):
-        return print(f'This coat is made by {title}')
 
 class Suit(Clothes):
-    def __init__(self, h):
+    def tailor(self, h):
         self.h = h
-
-    @property
-    def tailor(self):
         return print(f'For your suit {(((self.h / 100) * 2) + 0.3):.2f} m of wool is required')
+    @property
+    def name(self):
+        return print(f'This coat is made by {self.title}')
 
-    def name(self, title='Noname'):
-        return print(f'This suit is made by {title}')
 
-my_coat = Coat(46)
-my_coat.tailor
-my_coat.name('Lampard')
+my_coat = Coat('Lampard')
+my_coat.tailor(46)
+my_coat.name
 
-my_suit = Suit(1.76)
-my_suit.tailor
-my_suit.name('Sourd')
+my_suit = Suit('Sourd')
+my_suit.tailor(1.76)
+my_suit.name
 
+my_clothes = Clothes()
+my_clothes.name()
 
 
 
