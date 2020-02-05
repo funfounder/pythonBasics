@@ -1,5 +1,7 @@
 from time import sleep
 
+#-------hardcode-----
+
 class TrafficLight:
     def __init__(self, __color):
         i = 0
