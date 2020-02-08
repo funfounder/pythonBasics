@@ -1,18 +1,18 @@
-grid = {'rate': 500, 'bonus': 20}
-
 class Worker:
-    def __init__(self, name, surname, position):
-        self._income = grid
-        emploee = {'name': name, 'surname': surname, "position": position, 'income': self._income}
-        print(emploee)
+    def __init__(self, name, surname, position, profit, bonus):
+        self.name = name
+        self.surname = surname
+        self.position = position
+        self._income = {'profit': profit, 'bonus': bonus}
 
 class Position(Worker):
     def get_full_name(self):
-        print(f'Full name is {Worker.name} {Worker.surname}')
+        return f'Full name is {self.name} {self.surname}'
     def get_full_salary(self):
-        salary = int(Worker._income[1]) * (1 + (Worker._income[2] / 100))
-        print(f'Full salary is {salary}')
+        return f"Full salary is {(int(self._income['profit']) * (1 + (int(self._income['bonus']) / 100))):.2f}"
 
-my_worker = Position('Josh', 'Grade', 'Asphalter')
+# f"Full salary is {(int(self._income[1]) * (1 + (self._income[2] / 100)))}"
+
+my_worker = Position('Josh', 'Grade', 'Asphalter', '100', '20')
 print(my_worker.get_full_salary())
 print(my_worker.get_full_name())

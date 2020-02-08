@@ -1,7 +1,27 @@
 class Stationery:
-    title = None
-    def draw(self):
-             print(f'Drawing is started with')
+    def __init__(self, title='Something tat can draw'):
+        self.title = title
 
-a = Stationery()
-a.draw('pencil')
+    def draw(self):
+        print(f'Just start drawing with {self.title}!')
+
+class Pen(Stationery):
+    def draw(self):
+        print(f'Start drawing with {self.title} pen!')
+
+class Pencil(Stationery):
+    def draw(self):
+        print(f'Start drawing with {self.title} pencil!')
+
+class Handle(Stationery):
+    def draw(self):
+        print(f'Start drawing with {self.title} handle!')
+
+stat = Stationery()
+stat.draw()
+pen = Pen("Parker")
+pen.draw()
+pencil = Pencil("Faber-Castell")
+pencil.draw()
+handle = Handle("COPIC")
+handle.draw()
