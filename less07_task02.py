@@ -1,40 +1,29 @@
 from abc import ABC, abstractmethod
 
-class Clothes:
-    def __init__(self, title='Noname'):
-        self.title = title
+class Clothes(ABC):
+    def __init__(self, param):
+        self.param = param
+
     @abstractmethod
-    def name(self):
-        return print(f'This clothes is made by {self.title}')
+    def consumption(self):
+        pass
 
 class Coat(Clothes):
-    def tailor(self, v):
-        self.v = v
-        return print(f'For your coat {((self.v / 6.5) - 0.5):.2f} m of wool is required.')
     @property
-    def name(self):
-        return print(f'This coat is made by {self.title}')
+    def consumption(self):
+        return print(f'For your coat {((self.param / 6.5) - 0.5):.2f} m of wool is required.')
 
-
-class Suit(Clothes):
-    def tailor(self, h):
-        self.h = h
-        return print(f'For your suit {(((self.h / 100) * 2) + 0.3):.2f} m of wool is required')
+class Costume(Clothes):
     @property
-    def name(self):
-        return print(f'This coat is made by {self.title}')
+    def consumption(self):
+        return print(f'For your suit {(((self.param / 100) * 2) + 0.3):.2f} m of wool is required')
 
+my_coat = Coat(46)
+my_coat.consumption
 
-my_coat = Coat('Lampard')
-my_coat.tailor(46)
-my_coat.name
+my_suit = Costume(1.76)
+my_suit.consumption
 
-my_suit = Suit('Sourd')
-my_suit.tailor(1.76)
-my_suit.name
-
-my_clothes = Clothes()
-my_clothes.name()
 
 
 
