@@ -1,5 +1,4 @@
 user_time_sec = int(input('Insert time in seconds: '))
-
 minutes = int(user_time_sec / 60)
 hours = int(minutes / 60)
 print(f'The time is {hours:02}:{minutes%60:02}:{user_time_sec%60:02}')
