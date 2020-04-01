@@ -1,4 +1,4 @@
-#подсмотрел и добавил реализация ошибки некорректного месяца
+#подсмотрел и добавил реализацию ошибки некорректного месяца
 
 user_month = int(input('Insert month count: '))
 month_dict = {
@@ -21,4 +21,4 @@ for key, value in month_dict.items():
 
 
 month_list = ['winter', 'winter', 'spring', 'spring', 'spring', 'summer', 'summer', 'summer', 'autumn', 'autumn', 'autumn', 'winter']
-print(f'The month refferes to {month_list[user_month-1]}')
+print(f'The month refers to {month_list[user_month-1]}')
