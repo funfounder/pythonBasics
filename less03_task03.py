@@ -11,6 +11,9 @@
 
 #записал себе для красоты
 def my_func(x, y, z):
-    return print(sum(sorted([x, y, z])[1:]))
+    try:
+        return print(sum(sorted([x, y, z])[1:]))
+    except TypeError:
+        return print('You have entered string')
 
-my_func(5, 2 , 1)
+my_func(5, -1 , 1)

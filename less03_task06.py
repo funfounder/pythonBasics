@@ -1,8 +1,8 @@
 def my_func():
-    word = input('Insert a line devided with spaces: ')
+    words = input('Insert a line devided with spaces: ')
     char, result = [], []
-    if len(word) > 0:
-        for i in word.split():
+    if len(words) > 0:
+        for i in words.split():
             char.append(i[0].upper() + i[1:])
         result = ' '.join(char)
     return print(result)

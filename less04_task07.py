@@ -18,13 +18,16 @@ from math import factorial
 #     else:
 #         break
 
-def fibo_gen(n):
+def fibo_gen():
+    n = int(input('Insert positive number: '))
     m = 1
-    for i in range(1, n):
-        if i > 15:
-            break
-        m *= i
+    global num
+    for num in range(1, n):
+        m *= num
         yield m
 
-for i in fibo_gen(26):
-    print(i)
+for i in fibo_gen():
+    if num <15:
+        print(f'Factorial {num} = {i}')
+    else:
+        print()

@@ -24,8 +24,8 @@
 def summ():
     result = 0
     try:
-        while result != '-':
-            for i in map(int, input('Insert numbers diveded with spaces or enter "-" to quit: ').split()):
+        while True:
+            for i in map(int, input('Insert numbers divided with spaces or enter "-" to quit: ').split()):
                 result += i
             print(f'Current sum is {result}')
     except ValueError:

@@ -37,10 +37,10 @@ def my_func():
         x = int(input('Insert positive real number: '))
         y = int(input('Insert negative integer: '))
         if x > 0 and y < 0:
-            z = x * abs(y)
+            z = x
             for i in range(abs(y)-1):
                 z *= x
-            return print(1 / z)
+            return print(f'{1 / z:.4f}')
         else:
             return print('Your input is wrong!')
     except ValueError:

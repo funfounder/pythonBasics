@@ -1,12 +1,10 @@
-def my_func():
+def my_func(x, y):
     try:
-        x = int(input('Insert first number: '))
-        y = int(input('Insert second number: '))
-        return print(x / y)
+        div_n = (int(x) / int(y))
+        return print(div_n)
     except ValueError:
         return print('You have entered string!')
     except ZeroDivisionError:
         return print('Dividing on zero is not allowed!')
 
-
-my_func()
+my_func(input('Insert first number - ' ), input('Insert second number - '))
