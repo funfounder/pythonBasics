@@ -19,15 +19,16 @@ from math import factorial
 #         break
 
 def fibo_gen():
+    global num, user_num
     n = int(input('Insert positive number: '))
     m = 1
-    global num
-    for num in range(1, n):
+    user_num = factorial(n + 1)
+    for num in range(1, n + 1):
         m *= num
         yield m
 
 for i in fibo_gen():
-    if num <15:
+    if num <= 15:
         print(f'Factorial {num} = {i}')
     else:
-        print()
+        print(f'\rCustom factorial of {num} = {user_num}', end='')

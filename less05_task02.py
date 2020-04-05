@@ -12,5 +12,5 @@ for line in my_file:
             word_count = line.count(' ') + 1
             print(f'Line {i} contains {word_count} words')
             i += 1
-
+print(f'File contains {i} lines totally.')
 my_file.close()
