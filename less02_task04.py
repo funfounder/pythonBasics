@@ -10,3 +10,8 @@
 user_string = input('Insert a phrase: ').split()
 for ind, el in enumerate(user_string, 1):
         print(ind, el[:10])
+        
+user_string = input('Insert a phrase: ').split()
+
+for n, i in enumerate(user_string):
+        print(n + 1, i) if len(i) <+ 10 else print (n, (i:[:10]))
