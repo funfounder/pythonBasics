@@ -10,4 +10,12 @@ while True:
         print('Input is finished. Open the file.')
         break
 
-my_file.close()
+#my_file.close()
+
+#while True:
+#    line = input('Enter - ').split()
+#    if not line:
+#        break
+#    with open('text.txt', 'a') as my_file:
+#        for i in range(len(line)):
+#            print(line[i]], file=my_file)            
